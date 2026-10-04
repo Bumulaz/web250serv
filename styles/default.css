@@ -1,0 +1,196 @@
+body {
+
+    /* color for the page */
+    background-color: #E6D4BF;
+    max-width: 1800px;
+    margin: auto;
+
+}
+
+/*fonts for the page*/
+
+/*heading fonts*/
+@font-face {
+    font-family: 'arcade';
+    src: url('/fonts/arcadereg.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*fonts for normal text*/
+@font-face {
+    font-family: 'chonky';
+    src: url('/fonts/chonky.otf')format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+/*Title text for the page*/
+
+.pagetitle{
+    font-family: 'arcade';
+    text-align: center;
+    font-size: 65px;
+}
+
+.pagemini {
+    font-family: 'arcade';
+    font-size: 25px;
+}
+
+/*Top nav bar*/
+
+.pagenav{
+    font-family: 'chonky';
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+/*bottom copyright text*/
+.copyright {
+    font-family: 'chonky';
+    text-align: center;
+    font-size: 19px;
+}
+/*bottom nav*/
+.botnav {
+    font-family: 'chonky';
+    text-align: center;
+    font-size: 25px;
+    padding-top: 4%;
+}
+
+.pgheaders{
+    font-family: 'arcade';
+}
+
+h2.pgheaders {
+    font-size: 22px;
+}
+.pgtxt {
+    font-family: 'chonky';
+    font-size: 23px;
+}
+
+h6{
+    font-size: 50px;
+    white-space: nowrap;
+    font-family: 'chonky';
+    text-align: center;
+}
+
+p.pgtxt{
+ padding-left: 16%;
+}
+
+h5.pgtxt {
+    padding-left: 16%;
+}
+figcaption.pgtxt {
+    text-align: center;
+}
+/* if making a list and want to use the font use this class*/
+.fontlist {
+    list-style: inside;
+}
+.fontlist .pgtxt{
+    padding-left: 16%;
+}
+.weblink {
+    font-family: 'chonky';
+    font-size: 23px;
+    padding-left: 17%;
+}
+
+.introlink {
+    font-family: 'chonky';
+    font-size: 23px;
+    padding-left:17% ;
+}
+/*content container for info page*/
+.content {
+    max-width: 70%;
+    margin: auto;
+    
+}
+
+/*div for the picture in intro*/
+
+.pic {
+    display: block;
+    margin: auto;
+    width: 13%;
+}
+.introimg {
+    width: 25%;
+    display: block;
+    margin: auto;
+    padding-bottom: 6%px;
+}
+/*Example of header font in brand file*/
+.hdrexample{
+    font-family: 'arcade';
+    font-size: 17px;
+}
+
+.site-logo {
+    margin-top: 8px;
+}
+.site-logo-mini {
+    float: left;
+    margin-left: 230px;
+}
+
+#introtitle {
+text-align: center;
+
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.bgtxt {
+    flex: 1;                       
+    max-width: 900px;
+    height: 50px;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.form-row label {
+    flex: 0 0 180px; 
+    font-weight: bold;
+}
+
+.bgtxt, #namefield input {
+    flex: 1;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+
+.intro-display-area {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 700px) {
+    .pagenav, .botnav {
+        flex-direction: column;
+    }
+}
+
+a:hover {
+    transform: scaleY(2%);
+}
